@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function showAlert() {
+    alert("Your reservation details have been captured, we'll get back to you soon!");
+  }
+</script>
+<body id="bodyfile2">
+        <header class="header">
+        <a href="#" class="logo"> Welcome to Space Travel </a>
+
+        <nav class="navbar">
+            <a href="index.html"> Home </a>
+            <a href="contactus.html"> Contact Us </a>
+            <a href="destinations.html"> Destinations </a>
+            <a href="bookings.html"> Bookings </a>
+        </nav>
+    </header>
+
+       <div class="booking-container">
+    <h2>Book Your Stay</h2>
+     <br/> <br/>
+    <form>
+      <label for="destination" style="float: left;font-size: 30px;">Destination</label>
+      <input type="text" id="destination" name="destination" placeholder="Where are you going?" 
+      required style="float: right;font-size: 20px;"/>
+        <br/> <br/>
+      <label for="start-date" style="float: left;font-size: 30px;">Start Date</label>
+      <input type="date" id="start-date" name="start-date" required  style="float: right;font-size: 20px;"/>
+ <br/> <br/>
+      <label for="end-date" style="float: left;font-size: 30px;">End Date</label>
+      <input type="date" id="end-date" name="end-date" required style="float: right;font-size: 20px;"/>
+ <br/> <br/>
+      <button type="submit" style="font-size: 30px;margin-left: 100px;" onclick="showAlert()">Reserve</button>
+      <button type="cancel" style="font-size: 30px;">Cancel</button>
+    </form>
+  </div>
+
+</body>
+</html>
