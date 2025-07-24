@@ -4,6 +4,11 @@
     <title>Contact us </title>
     <link rel="stylesheet" href="style4.css">
 </head> 
+<script>
+  function showAlert() {
+    alert("Thanks for reaching out!");
+  }
+</script>
 <body>    
  <header class="header">
         <a href="#" class="logo"> Welcome to Space Travel </a>
@@ -33,7 +38,7 @@
         <textarea id="message" placeholder="Write your message..." required></textarea>
       </div>
 
-      <button type="submit">Send Message</button>
+      <button type="submit" onclick="showAlert()">Send Message</button>
     </form>
   </div>
 </body>
