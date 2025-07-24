@@ -114,14 +114,21 @@ body {
     text-decoration: none;
 }
 
+.btn a{
+    text-decoration: none;
+}
+
 .btn:hover{
     background:transparent;
-    color:white;
     box-shadow:none;
 }
 
+.btn:hover a{
+    color: white;
+}
+
 #bodyfile2{
-    background: url('images/space-bg6.jpg') no-repeat;
+    background: url('images/space-bg7.jpg') no-repeat;
     max-height: 100vh;
     background-size: cover; 
     background-position: center;
@@ -157,14 +164,29 @@ body {
     line-height: 1.5;
 }
 .booking-container {
-      background-color:aliceblue;
+      background-color:rgba(255, 255, 255, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      color: #F7FFF7;
+      backdrop-filter: blur(10px);
+      margin: 10% auto 0;
       padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
       max-width: 600px;
       width: 100%;
       font-size: 30px;
       margin-top: 300px;
-      margin-left: 400px;
+      margin-left: 650px;
+    }
+    .formbtn{
+        background-color: #D6E3F8;
+        border: 2px solid white;
+        color: rgb(11, 13, 23);
+        box-shadow: 0 0 10px white;
+        transition: 0.5s;
+    }
+    .formbtn:hover{
+        background:transparent;
+        color:white;
+        box-shadow:none;
     }
    
